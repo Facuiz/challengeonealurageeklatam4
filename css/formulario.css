@@ -1,0 +1,130 @@
+:root {
+    --azul: #2A7AE4;
+    --gris-claro: #F5F5F5;
+    --azul-claro: #EAF2FD;
+    --fuente: 'Raleway', sans-serif;
+    --gris-fuerte: #464646;
+    --gris: #a2a2a2;
+}
+
+/* FORMULARIO */
+.formulario {
+    max-width: 100%;
+}
+
+@media (min-width: 768px) {
+    .formulario {
+        width: 50rem;
+    }
+}
+
+.formulario_titulo {
+    color: var(--gris-fuerte);
+    font-size: 2rem;
+}
+
+.contenedor_input {
+    position: relative;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    border-bottom: 3px solid #e1e1e1;
+}
+
+.input {
+    box-sizing: border-box;
+    padding: 2.5rem 1rem;
+    font-size: 1.8rem;
+    height: 3.25rem;
+    width: 100%;
+    border: none;
+    border-radius: .5rem;
+}
+
+.input::placeholder {
+    visibility: hidden;
+    color: var(--gris-fuerte);
+}
+
+.input:focus {
+    outline: none;
+}
+
+.input-label {
+    position: absolute;
+    top: 1.375rem;
+    left: 0.5rem;
+    font-size: var(--font-size-input-label);
+    transition: all 0.25s;
+    color: var(--gris);
+}
+
+.input:not(:placeholder-shown)+.input-label,
+.input:focus+.input-label {
+    font-size: 0.875rem;
+    top: 0.25rem;
+    transition: all 0.25s;
+}
+
+.select {
+    height: 5rem;
+    width: 100%;
+    border: none;
+    border-radius: .5rem;
+    color: var(--gris);
+}
+
+.textarea {
+    outline: none;
+    border: none;
+    border-radius: .5rem;
+    width: 100%;
+    min-height: 10rem;
+    margin-bottom: 1rem;
+}
+
+.textarea::placeholder {
+    color: var(--gris-fuerte);
+}
+
+.form-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-footer .btn-azul {
+    margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .form-footer {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .form-footer .btn-azul {
+        margin-bottom: 0;
+    }
+
+}
+.btn-azul {
+    background-color: var(--azul);
+    color: #fff;
+    padding: 1.5rem 4rem;
+    border: none;
+    transition: background-color .3s ease-in-out;
+}
+
+.btn-azul:hover {
+    background-color: #0252bc;
+    cursor: pointer;
+}
+
+.btn-azul.btn-desactivado {
+    cursor: not-allowed;
+    background-color: #464646;
+}
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/inicio.css">
+    <link rel="stylesheet" href="./css/footer.css">
+   
+</head>
+<header class="cabecera">              
+    <a href="./index.html"> 
+        <img class="logo" src="img/Logo.png" alt="Logo empresa">
+    </a>     
+    
+</header>
+<body>
+    <div class="container">
+        
+        <form class="formulario">
+            <h2 class="iniciarSesion">Iniciar Sesion</h2>
+            
+            <input class="email" type="email" placeholder="Escriba su correo electronico" id="username">
+            <input class="contraseña" type="password" placeholder="Escriba su contraseña" id="password">
+            <input class="btnIniciar" type="button" value="Entar" id="button" onclick="validar()">
+        </form>      
+      
+
+    </div>
+    <footer class="footer contenedor">
+        <p class="footer-heading">Desarrollado por Facundo Ivan Segovia <span id="footer-fecha">2023</span></p>
+    </footer>
+    <script src="js/validacion.js"></script>
+</body>
+</html>

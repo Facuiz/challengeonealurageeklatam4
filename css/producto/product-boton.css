@@ -1,0 +1,16 @@
+.product__boton{
+   
+    border: none;
+    border-radius: 5px;
+    color: #2A7AE4;
+    
+    transition: all .1s ease-in-out ;
+    font-family:'Raleway';
+    text-align: left;
+    font-size: 12px;
+}
+
+.product__boton:hover{
+    cursor: pointer;
+    color:slateblue;
+}

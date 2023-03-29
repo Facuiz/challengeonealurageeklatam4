@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doguito Petshop | Actualizar cliente</title>
+    <link rel="icon" href="../assets/img/doguitoadm.svg" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/css/base/base.css" />
+    <link rel="stylesheet" href="../assets/css/componentes/header.css" />
+    <link rel="stylesheet" href="../assets/css/componentes/card.css" />
+    <link rel="stylesheet" href="../assets/css/register_client.css" />
+    <link rel="stylesheet" href="../assets/css/componentes/inputs.css" />
+    <link rel="stylesheet" href="../assets/css/componentes/button.css" />
+  </head>
+  <body>
+    <header class="header container">
+      <img
+        src="../img/Logo.png"
+        alt="Logo alurageek"
+        class="header__logo"
+      />
+      <nav>
+        <ul class="header__list-nav">
+          <li class="header__link"><a href="#">Inicio</a></li>
+          
+          <li class="header__link">
+            <a href="lista_producto.html">Productos </a>
+          </li>
+          
+        </ul>
+      </nav>
+    </header>
+    <main class="container flex flex--center flex--column">
+      <section class="card cadastro">
+        <h1 class="card__title">Editar</h1>
+        <form action="#" class="flex flex--column" data-form>
+          <div class="input-container">
+            <input
+              name="urlImagen"
+              id="urlImgen"
+              class="input"
+              type="text"
+              placeholder="URL imagen"
+              required
+              data-url
+            />
+            <label class="input-label" for="nombre">URL imagen</label>
+            <span class="input-menssage-error">Este campo es requerido</span>
+          </div>
+        <div class="input-container">
+        <input
+          name="nombre"
+          id="nombre"
+          class="input"
+          type="text"
+          placeholder="Nombre"
+          required
+          data-nombre
+        />
+        <label class="input-label" for="nombre">Nombre</label>
+        <span class="input-menssage-error">Este campo es requerido</span>
+      </div>
+      <div class="input-container">
+        <input
+          name="categoria"
+          id="categoria"
+          class="input"
+          type="text"
+          placeholder="Categoria"
+          required
+          data-categoria
+        />
+        <label class="input-label" for="nombre">Categoria</label>
+        <span class="input-menssage-error">Este campo es requerido</span>
+      </div>
+      
+      <div class="input-container">
+        <input
+          name="descripcion"
+          id="descripcion"
+          class="input"
+          type="text"
+          placeholder="Descripcion"
+          required
+          data-descripcion
+        />
+        <label class="input-label" for="nombre">Descripcion</label>
+        <span class="input-menssage-error">Este campo es requerido</span>
+      </div>
+      <div class="input-container">
+        <input
+          name="precio"
+          id="precio"
+          class="input"
+          type="text"
+          placeholder="Precio"
+          required
+          data-precio
+        />
+        <label class="input-label" for="email">Precio</label>
+        <span class="input-menssage-error">Este campo es requerido</span>
+      </div>
+          <button type="submit" class="button">Editar cliente</button>
+        </form>
+      </section>
+    </main>
+    <script type="module" src="../controllers/actualizar.controller.js"></script>
+  </body>
+</html>

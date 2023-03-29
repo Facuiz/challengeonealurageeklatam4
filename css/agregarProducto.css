@@ -1,0 +1,64 @@
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    width: 1136px;
+height: 491px;
+background-color: antiquewhite;
+}
+.text__Nuevo{
+    width: 559px;
+    height: 56px;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+}
+.url{
+    width: 559px;
+height: 56px;
+background: #FFFFFF;
+border-radius: 4px;
+
+}
+.categoria{
+width: 559px;
+height: 56px;
+background: #FFFFFF;
+border-radius: 4px;
+}
+.nombreProducto{
+    width: 559px;
+height: 56px;
+background: #FFFFFF;
+border-radius: 4px;
+}
+.precio{
+    width: 559px;
+height: 56px;
+background: #FFFFFF;
+border-radius: 4px;
+}
+.descripcion{
+    width: 559px;
+height: 82px;
+
+/* Preto/branco */
+
+background: #FFFFFF;
+border-radius: 4px;
+}
+.btnAgregarProducto{
+    width: 559px;
+height: 51px;
+
+/* Azul/100% */
+
+background: #2A7AE4;
+color: #FFFFFF;
+border-color: #2A7AE4;
+}

@@ -1,0 +1,110 @@
+.titulo{
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 871px;
+width: 1133px;
+height: 38px;
+padding: 2rem 0 0 5rem;
+    
+}
+.star{
+    width: 148px;
+    height: 38px;    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;      
+    color: #464646;
+}
+.productos1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 1136px;
+    height: 252px;
+     
+         
+}
+.caja{
+    border: 1px solid rgb(rgb(119, 147, 207), green, blue);
+    background-color: white;
+    color: black;   
+    line-height: 120px;
+    text-align: center;
+    margin: 5px;
+    width: 176px;
+  
+    
+}
+.flechaVerMas{
+    width: 24px;
+    height: 24px;
+}
+
+.VerTodo:hover{
+    cursor: pointer;
+    color:rgb(65, 91, 236);
+}
+.VerTodo{
+    color: #2A7AE4;
+    font-family: 'Raleway';
+    font-style: normal;   
+    font-weight: bold;
+   
+}
+.v1_73 {
+    width: 176px;
+    height: 174px;
+   
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+   
+    overflow: hidden;
+}
+
+.v1_74 {
+    width: 176px;
+    color: rgba(70, 70, 70, 1);
+    position: absolute;
+   
+    font-family: Raleway;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v1_75 {
+    width: 176px;
+    color: rgba(70, 70, 70, 1);
+    position: absolute;
+    top: 206px;
+    left: 0px;
+    font-family: 'Raleway';
+    font-weight: Bold;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v1_76 {
+    width: 100px;
+    color: rgba(42, 122, 228, 1);
+    position: absolute;
+    top: 233px;
+    left: 0px;
+    font-family: 'Raleway';
+    font-weight: Bold;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+}
